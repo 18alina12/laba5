@@ -69,7 +69,7 @@ class _MyAppState extends State<MyApp> {
   }
 }
 
-// ListView Widget
+
 Widget buildListView() {
   return ListView.builder(
     itemCount: 5,
@@ -82,7 +82,7 @@ Widget buildListView() {
   );
 }
 
-// GridView Widget
+
 Widget buildGridView() {
   return GridView.builder(
     padding: const EdgeInsets.all(8.0),
